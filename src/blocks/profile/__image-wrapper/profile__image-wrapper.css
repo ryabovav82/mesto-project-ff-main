@@ -1,0 +1,12 @@
+.profile__image-wrapper {
+    position: relative;
+    inline-size: fit-content;
+    block-size: fit-content;
+    cursor: pointer;
+  }
+  
+  .profile__image-wrapper:hover .profile__image-overlay {
+    visibility: initial;
+    opacity: 1;
+    transition: visibility 0.2s, opacity 0.5s;
+  }
